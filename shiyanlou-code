@@ -1,0 +1,11 @@
+cd Code    ##进入Code目录，题目是在Code目录下克隆仓库；
+git clone “仓库链接”    ##仓库链接内输入你在GitHub创建好的仓库链接；然后克隆到本地
+ls    #查看克隆是否成功，成功后输入下一命令；
+cd shiyanlou-code    ##进入shiyanlou-code目录；
+gedit jump7.py    ##新建一个叫jump7.py的文件，并在文件内复制上个实验的代码；
+git add jump7.py    ##将jump7.py提交到本地的暂存区
+git status    ##检测查看暂存区的状态，没为题的话就进行配置；
+git config --global user.name "用户名"    #引号内输入你注册Github的用户名，注意name后面有个空格。
+git config --global user.Email “邮箱账号” #引号内输入你注册GitHub的注册邮箱；
+git commit -m “对于jump7.py内的代码注释” #引号内输入注释
+git push origin master   #开始将这个文件上传到GitHub仓库中
